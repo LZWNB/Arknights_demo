@@ -1,0 +1,16 @@
+.contact {
+    height: 100%;
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    gap: 50px;
+
+    .textContainer {
+        flex: 1;
+    }
+    .fromContainer {
+        flex: 1;
+    }
+}

@@ -1,0 +1,67 @@
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .test > div {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .test > div:last-child {
+    margin-right: 0;
+  }
+  
+  h5 {
+    font-size: 14px;
+    color: #555;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  h2 {
+    font-size: 22px;
+    color: #222;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  button::before,
+  button::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 2px;
+    background-color: #222;
+    transform: translate(-50%, -50%);
+  }
+  
+  button::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  button::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  

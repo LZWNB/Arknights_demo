@@ -1,0 +1,28 @@
+.contact {
+    height: 100%;
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    gap: 50px;
+
+    .textContainer {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        h1{
+            font-size: 100PX;
+            line-height: 88PX;
+
+        }
+        span {
+            font-weight: 300;
+        }
+    }
+    .fromContainer {
+        flex: 1;
+    }
+}
