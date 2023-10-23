@@ -22,7 +22,7 @@ export const Contact = () => {
   const ref = useRef()
   const isInView = useInView(ref, { margin: "-100px" })
   return (
-    <motion.div className="contact" variants={variants} initial="initial" whileInView="animate" ref={ref}>
+    <motion.div className="contact" variants={variants} whileInView="animate" ref={ref}>
       <motion.div className="textContainer" variants={variants}>
         <motion.h1 variants={variants}>Let’s work together</motion.h1>
         <motion.div className="item" variants={variants}>
