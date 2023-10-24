@@ -1,5 +1,4 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,12 +6,12 @@
 }
 
 html {
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory !important;
+    scroll-behavior: smooth !important;
     transition: all ease-in-out .5s;
 }
 
-body{
+body {
     background-color: #0c0c1d;
     color: lightgray;
 }
@@ -20,7 +19,7 @@ body{
 a {
     text-decoration: none;
     color: inherit;
-    
+
 }
 
 section {
@@ -28,31 +27,19 @@ section {
     scroll-snap-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// 移动端适配
+@mixin mobile {
+    @media (max-width: 738px) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media (max-width: 1024px) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (max-width:1366px) {
+        @content;
+    }
+}

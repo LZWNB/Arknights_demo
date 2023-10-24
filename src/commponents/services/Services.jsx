@@ -1,10 +1,10 @@
 import "./services.scss"
 import { motion } from "framer-motion";
-// import { useRef } from "react";
+import { useRef } from "react";
 
 const variants = {
   initial: {
-    x: -500,
+    x: -390,
     opacity: 0,
   },
   animate: {
@@ -33,19 +33,25 @@ const varhr = {
 
 export const Services = () => {
 
-  // const ref = useRef()
+  const ref = useRef()
 
   // const isInView = (ref,{margin:"-100px"})
 
   return (
     <motion.div className="services"
-
+      variants={variants}
+      initial="initial"
+      // animate="animate"
+      // whileInView={"animate"}
+      ref={ref}
+      animate={ "animate"}
     >
       <motion.div className="textContainer"
         variants={variants}
-        initial="initial"
+        // initial="initial"
         // animate="animate"
-        whileInView={"animate"}>
+        // whileInView={"animate"}
+        >
         <p>If there is a lack of an appreciator who applauds and shouts encore,
           <br></br>
           let me act as the one. Congratulations, Dr.</p>
