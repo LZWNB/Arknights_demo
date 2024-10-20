@@ -8,7 +8,7 @@
 
 #### 软件架构
 软件架构说明
-* React + Vite
+* React + Vite + Framer-motion
 
 #### 安装教程
 

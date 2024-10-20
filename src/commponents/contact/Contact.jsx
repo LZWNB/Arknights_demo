@@ -31,7 +31,8 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_horr5eq", "template_x0vmv8b", formRef.current, "XkpEuPF6L5P9EdEHN")
+    emailjs.sendForm("service_mvtow4s", "template_u27e3xu", formRef.current, "y8oMeX8bFsOLLGTEu" )
+    // "XkpEuPF6L5P9EdEHN"
       .then((result) => {
         setSuccess(true)
       }, (error) => {
@@ -64,7 +65,7 @@ export const Contact = () => {
           <svg width="450px" height="450px" viewBox="0 0 48 48" fill="none">
             <path
               strokeWidth={0.2}
-              // stroke-linecap="bevel"
+              strokeLinecap="round"
               fill="none"
               d="M40.5,5.5H7.5a2,2,0,0,0-2,2v33a2,2,0,0,0,2,2h33a2,2,0,0,0,2-2V7.5A2,2,0,0,0,40.5,5.5Z" />
             <motion.path strokeWidth={0.3} fill="none" initial={{ pathLength: 0 }} animate={isInView && { pathLength: 1 }} transition={{ duration: 3 }} d="M30.5339,14.0558a48.0066,48.0066,0,0,1-5.8646,11.1554c-.1557-2.9249-.5656-5.3887-.4781-7.9044a17.4677,17.4677,0,0,0-1.8486,5.8964,47.41,47.41,0,0,1-1.4342-9.8167,43.9781,43.9781,0,0,1-4.7809,7.9362c.6709,3.4063,1.6592,6.5839,4.43,8.4781a5.4554,5.4554,0,0,1-3.6335-1.243l6.12,10.6454c-3.9281-2.2311-7.63-5.7635-11.2191-9.9442" />
