@@ -15,7 +15,7 @@ export const Navbar = () => {
             <div className="social">
                 <a href="#"><img src="https://raw.githubusercontent.com/LZWNB/images/refs/heads/main/icon/facebook.png" alt="" /></a>
                 <a href="#"><img src="https://raw.githubusercontent.com/LZWNB/images/refs/heads/main/icon/instagram.png" alt="" /></a>
-                <a href="#"><img src="https://raw.githubusercontent.com/LZWNB/images/refs/heads/main/icon/youtube.png" alt="" /></a>
+                <a href="#"><img src="/youtube.png" alt="" /></a>
                 <a href="#"><img src="https://raw.githubusercontent.com/LZWNB/images/refs/heads/main/icon/bilibili.png" alt="" /></a>
             </div>
         </div>

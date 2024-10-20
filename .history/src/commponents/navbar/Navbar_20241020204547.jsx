@@ -13,10 +13,10 @@ export const Navbar = () => {
             transition={{duration: 0.5}} 
             >Lama Dev</motion.span>
             <div className="social">
-                <a href="#"><img src="https://raw.githubusercontent.com/LZWNB/images/refs/heads/main/icon/facebook.png" alt="" /></a>
-                <a href="#"><img src="https://raw.githubusercontent.com/LZWNB/images/refs/heads/main/icon/instagram.png" alt="" /></a>
-                <a href="#"><img src="https://raw.githubusercontent.com/LZWNB/images/refs/heads/main/icon/youtube.png" alt="" /></a>
-                <a href="#"><img src="https://raw.githubusercontent.com/LZWNB/images/refs/heads/main/icon/bilibili.png" alt="" /></a>
+                <a href="#"><img src="/facebook.png" alt="" /></a>
+                <a href="#"><img src="/instagram.png" alt="" /></a>
+                <a href="#"><img src="/youtube.png" alt="" /></a>
+                <a href="#"><img src="/bilibili.png" alt="" /></a>
             </div>
         </div>
     </div>

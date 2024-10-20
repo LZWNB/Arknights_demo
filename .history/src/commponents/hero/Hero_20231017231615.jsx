@@ -64,7 +64,7 @@ export const Hero = () => {
             Writer Content Creator Influencer
         </motion.div>
         <div className="imageContainer">
-            <img src="https://raw.githubusercontent.com/LZWNB/images/refs/heads/main/img/900px-%E7%AB%8B%E7%BB%98_%E9%BB%91%E9%94%AE_1.png" alt="" />
+            <img src="/900px-立绘_黑键_1.png" alt="" />
         </div>
     </div>
   )

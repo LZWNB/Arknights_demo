@@ -66,7 +66,7 @@ export const Services = () => {
         // animate="animate"
         whileInView={"animate"}>
         <div className="title">
-          <img src="https://raw.githubusercontent.com/LZWNB/images/refs/heads/main/img/456.jpg" alt="" />
+          <img src="/456.jpg" alt="" />
           <h1>
             <motion.b whileHover={{ color: "orange" }}> Unique </motion.b>Ideas
           </h1>
