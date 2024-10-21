@@ -31,15 +31,11 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.init("XkpEuPF6L5P9EdEHN");
-
-    emailjs.sendForm("service_mvtow4s", "template_x0vmv8b", formRef.current,"y8oMeX8bFsOLLGTEu"  )
-    //   "y8oMeX8bFsOLLGTEu"
+    emailjs.sendForm("service_mvtow4s", "template_0z0bc6d", formRef.current, "y8oMeX8bFsOLLGTEu" )
+    // "XkpEuPF6L5P9EdEHN"
       .then((result) => {
         setSuccess(true)
       }, (error) => {
-        console.error("EmailJS Error:", error);
-        console.error("EmailJS Error:", error);
         setError(true)
       })
   }
@@ -105,7 +101,7 @@ export const Contact = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 4, duration: 1 }}>
-          <input type="text" required placeholder="Name" name="from_name"/>
+          <input type="text" required placeholder="Name" name="name"/>
           <input type="email" required placeholder="Email" name="email"/>
           <textarea rows={8} placeholder="Message" name="message"></textarea>
           <button>Submit</button>

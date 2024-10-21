@@ -33,7 +33,7 @@ export const Contact = () => {
 
     emailjs.init("XkpEuPF6L5P9EdEHN");
 
-    emailjs.sendForm("service_mvtow4s", "template_x0vmv8b", formRef.current,"y8oMeX8bFsOLLGTEu"  )
+    emailjs.sendForm("service_mvtow4s", "template_0z0bc6d", formRef.current,"y8oMeX8bFsOLLGTEu"  )
     //   "y8oMeX8bFsOLLGTEu"
       .then((result) => {
         setSuccess(true)
