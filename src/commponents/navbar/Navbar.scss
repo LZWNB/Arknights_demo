@@ -30,5 +30,21 @@
             width: 18px;
             height: 18px;
         }
+        .language {
+            button {
+                // padding: 20px;
+                border: 1px solid rgba(1, 1, 1,0);
+                border-radius: 10px;
+                background-color: transparent;
+                color: white;
+                margin: 0 20px;
+                cursor: pointer;
+                font-weight: 300;
+            }
+            span{
+                margin: 0;
+            }
+        }
+        
     }
 }
