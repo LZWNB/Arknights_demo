@@ -1,6 +1,4 @@
-
-@import "../../app.scss";
-
+@use '../../app' as *;
 
 .cursor {
     width: 50px;
