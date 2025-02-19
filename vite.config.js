@@ -19,7 +19,7 @@ export default defineConfig({
       sass: true,
     }),
   ],
-  base: './',
+  base: '/',
   build: {
     outDir: 'docs'
   },
