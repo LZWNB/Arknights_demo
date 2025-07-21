@@ -1,7 +1,8 @@
-@use '../../app' as *;
+@use '../../app.scss'as *;
 
 .navbar {
     height: 100px;
+
     .wrapper {
         max-width: 1366px;
         margin: auto;
@@ -9,6 +10,7 @@
         align-items: center;
         justify-content: space-between;
         height: 100%;
+
         @include mobile {
             justify-content: flex-end;
             padding: 20px;
@@ -17,11 +19,12 @@
 
     span {
         font-weight: bold;
+
         @include mobile {
             display: none;
         }
     }
-    
+
     .social {
         display: flex;
         gap: 20px;
@@ -30,10 +33,10 @@
             width: 18px;
             height: 18px;
         }
+
         .language {
             button {
-                // padding: 20px;
-                border: 1px solid rgba(1, 1, 1,0);
+                border: 1px solid rgba(1, 1, 1, 0);
                 border-radius: 10px;
                 background-color: transparent;
                 color: white;
@@ -41,10 +44,11 @@
                 cursor: pointer;
                 font-weight: 300;
             }
-            span{
+
+            span {
                 margin: 0;
             }
         }
-        
+
     }
 }
