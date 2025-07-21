@@ -4,6 +4,7 @@ import styles from 'rollup-plugin-styles'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Arknights_demo/',
   plugins: [
     react(),
     styles({
@@ -29,7 +30,6 @@ export default defineConfig({
       }
     }
   },
-  base: '/',
   build: {
     outDir: 'docs'
   },
