@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 export default defineConfig({
-  base: '/Arknights_demo/',
+  base: '/',
   plugins: [react()],
   css: {
     modules: {
