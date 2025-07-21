@@ -19,17 +19,7 @@ export default defineConfig({
       sass: true,
     }),
   ],
-  css: {
-    modules: {
-      localsConvention: 'dashes'
-    },
-    preprocessorOptions: {
-      scss: {
-        // 你可以在这里添加SCSS全局变量或混合
-      }
-    }
-  },
-  base: '/Arknights_demo',
+  base: '/',
   build: {
     outDir: 'docs'
   },
