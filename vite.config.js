@@ -29,7 +29,7 @@ export default defineConfig({
       }
     }
   },
-  base: '/Arknights_demo',
+  base: '/',
   build: {
     outDir: 'docs'
   },
