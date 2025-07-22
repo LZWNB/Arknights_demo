@@ -1,4 +1,4 @@
-import "./Hero.scss"
+import "./hero.scss"
 import {motion} from "framer-motion"
 import { useTranslation } from 'react-i18next';
 
