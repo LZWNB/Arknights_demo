@@ -49,15 +49,15 @@ export const Contact = () => {
         <motion.h1 variants={variants}>Let’s work together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <span>hello@react.dev</span>
+          <span>2788267031@qq.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>hello street Guang Zhou</span>
+          <span>Guang Zhou · China</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
-          <span>+1 123 456 789</span>
+          <span>+86 132 6535 7911</span>
         </motion.div>
       </motion.div>
       <div className="formContainer">
