@@ -12,19 +12,19 @@ const items = [
     },
     {
         id: 2,
-        title: "Next.js Blog",
+        title: "VitePress Blog",
         img: "./222.png",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dignissimos voluptas eos nam aperiam nisi magni nihil, placeat adipisci corrupti rerum exercitationem recusandae porro deleniti aliquam dicta molestiae. Molestias, voluptatem.",
 
     }, {
         id: 3,
-        title: "Vanilla Js App",
+        title: "Mini program",
         img: "./333.png",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dignissimos voluptas eos nam aperiam nisi magni nihil, placeat adipisci corrupti rerum exercitationem recusandae porro deleniti aliquam dicta molestiae. Molestias, voluptatem.",
 
     }, {
         id: 4,
-        title: "Music App",
+        title: "Web size",
         img: "./444.jpg",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dignissimos voluptas eos nam aperiam nisi magni nihil, placeat adipisci corrupti rerum exercitationem recusandae porro deleniti aliquam dicta molestiae. Molestias, voluptatem.",
 
