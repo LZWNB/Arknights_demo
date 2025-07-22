@@ -16,7 +16,20 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: 'docs'
+    outDir: 'docs',
+    assetsInlineLimit: 0,
+    rollupOptions: {
+      output: {
+        assetFileNames: (assetInfo) => {
+          const info = assetInfo.name.split('.');
+          const extType = info[info.length - 1];
+          if (/\.(png|jpe?g|gif|svg|webp)$/i.test(assetInfo.name)) {
+            return `[name].[hash][extname]`;
+          }
+          return `assets/[name].[hash][extname]`;
+        }
+      }
+    }
   },
   resolve: {
     alias: {
