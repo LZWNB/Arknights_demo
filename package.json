@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d docs"
   },
-  "homepage": "/Arknights_demo/",
+  "homepage": "https://lzwnb.github.io/Arknights_demo/",
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
     "framer-motion": "^10.18.0",
